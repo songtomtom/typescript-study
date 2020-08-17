@@ -1,8 +1,10 @@
-enum Color {
-  Red = 'red',
-  Green = 'green',
-  Blue = 'blue',
-}
+{
+  enum Color {
+    Red = 'red',
+    Green = 'green',
+    Blue = 'blue',
+  }
 
-console.log(Color.Red);
-console.log(Color['Green']);
+  console.log(Color.Red);
+  console.log(Color['Green']);
+}

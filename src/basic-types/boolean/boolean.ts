@@ -1,2 +1,4 @@
-let isBoolean: boolean;
-let isDone: boolean = false;
+{
+  let isBoolean: boolean;
+  let isDone: boolean = false;
+}

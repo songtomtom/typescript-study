@@ -1,15 +1,17 @@
-enum Week2 {
-  Sun,
-  Mon = 22,
-  Tue,
-  Wed,
-  Thu,
-  Fri,
-  Sat,
-}
-console.log(Week2.Mon);
-console.log(Week2.Tue);
-console.log(Week2['Sat']);
+{
+  enum Week {
+    Sun,
+    Mon = 22,
+    Tue,
+    Wed,
+    Thu,
+    Fri,
+    Sat,
+  }
+  console.log(Week.Mon);
+  console.log(Week.Tue);
+  console.log(Week['Sat']);
 
-console.log(Week2[0]);
-console.log(Week2[24]);
+  console.log(Week[0]);
+  console.log(Week[24]);
+}
